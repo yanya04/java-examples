@@ -1,5 +1,6 @@
 package com.yyzz.java.examples.collections;
 
+import java.time.ZoneId;
 import java.util.TreeSet;
 
 public class Main {
@@ -19,7 +20,7 @@ public class Main {
 		
 		Integer y = new Integer(2);
 		
-		System.out.println(y - x);
+		System.out.println(ZoneId.systemDefault());
 	}
 
 }
