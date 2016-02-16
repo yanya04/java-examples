@@ -12,11 +12,10 @@ public class Main {
 		
 		Thread.sleep(100);
 		
-		
 		Integer[] numbers = new Integer[]{5, 4, 3, 7};
 		Arrays.sort(numbers);
 		System.out.println(Arrays.asList(numbers));
-		Arrays.sort(numbers, (Integer i, Integer j) -> {
+		Arrays.sort(numbers, (i, j) -> {
 			if(i < j){
 				return 1;
 			} else if (i == j) {return 0;}
